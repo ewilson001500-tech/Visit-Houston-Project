@@ -1,11 +1,13 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgba(248, 248, 248, 1);
+  background-color: #243642;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
+
+  background-color: #fff;
 }
 
 .text-center {
@@ -81,7 +83,7 @@ section {
 }
 
 section.secondary {
-  background-color: #e0dfdf42;
+  background-color: #e6e5e534;
 }
 
 header {
@@ -246,5 +248,17 @@ footer a {
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  main h2 {
+    font-size: 14px;
+  }
+
+  main h3 {
+    font-size: 28px;
+  }
+
+  main p {
+    font-size: 15px;
   }
 }
